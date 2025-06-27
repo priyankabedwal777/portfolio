@@ -3,6 +3,8 @@ import endpoints from "../constants/endpoints";
 import FallbackSpinner from "./FallbackSpinner";
 import Typewriter from "typewriter-effect";
 import { Reveal, Slide, Fade } from "react-awesome-reveal";
+import { Image } from "react-bootstrap";
+import homeimg from "../Assests/images/homebanerimg.png";
 
 const Home = () => {
   const [data, setData] = useState(null);
@@ -23,20 +25,8 @@ const Home = () => {
   return data ? (
     <div id="/" className="home">
       <Reveal duration={3000} triggerOnce>
-        <div className="homeimage">
-          <img
-            src={data.profilePic.source}
-            alt="ProfilePic"
-            style={{
-              width: data.profilePic.width,
-              height: data.profilePic.height,
-              borderRadius: data.profilePic["border-radius"],
-              objectFit: data.profilePic["object-fit"],
-              marginBottom: data.profilePic["margin-bottom"],
-            }}
-          />
-
-          {/* <img src="https://png.pngtree.com/element_our/20190524/ourmid/pngtree-cartoon-man-working-image_1102677.jpg" alt="ProfilePic"/> */}
+        <div>
+          <Image src={homeimg} />
         </div>
       </Reveal>
       <Fade direction="right" duration={3000} cascade damping={1e3} triggerOnce>
