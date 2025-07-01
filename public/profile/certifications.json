@@ -2,19 +2,19 @@
   "certifications": [
     {
       "title": "Foundation of Project Management",
-      "image": "/Assests/images/Ducat-India.png",
+      "image": "public/certifications/UpSkillsFrontend.png",
       "bodyText": "Google - 2021",
       "credentialUrl": "https://linkhere.com"
     },
     {
       "title": "Meta Front-End Developer",
-      "image": "/certifications/InfosysCertificate.png",
+      "image": "/certifications/mindluster.jpg",
       "bodyText": "Meta - 2024",
       "credentialUrl": "https://linkhere.com"
     },
     {
       "title": "IBM Full Stack Software Developer",
-      "image": "/certifications/ScalerCertificateReact.png",
+      "image": "/certifications/InfosysCertificate.png",
       "bodyText": "IBM - 2024",
       "credentialUrl": "https://linkhere.com"
     },
@@ -26,13 +26,13 @@
     },
     {
       "title": "Fundamentals of AI & ML",
-      "image": "/certifications/UpSkillsFrontend.png",
+      "image": "/certifications/ScalerCertificateReact.png",
       "bodyText": "Skillsoft - 2024",
       "credentialUrl": "https://linkhere.com"
     },
     {
-      "title": "AI & Frontend (Mindluster)",
-      "image": "/certifications/mindluster.jpg",
+      "title": "AI & Frontend Development",
+      "image": "/certifications/Certificate-Ducat-India.png",
       "bodyText": "Mindluster - 2024",
       "credentialUrl": "https://linkhere.com"
     }
