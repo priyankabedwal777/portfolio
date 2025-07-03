@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
-import endpoints from "../constants/endpoints";
 import FallbackSpinner from "./FallbackSpinner";
 import DefaultContainers from "./containers/DefaultContainers";
 import { useTheme } from "../theme/ThemeContext.jsx";
 import { darkTheme } from "../theme/theme.js";
+import endpoints from "../constants/endpoints.js";
 
 const Certifications = (props) => {
   const [data, setData] = useState(null);

@@ -2,7 +2,7 @@
   "certifications": [
     {
       "title": "Foundation of Project Management",
-      "image": "public/certifications/UpSkillsFrontend.png",
+      "image": "/certifications/UpSkillsFrontend.png",
       "bodyText": "Google - 2021",
       "credentialUrl": "https://linkhere.com"
     },
