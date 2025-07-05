@@ -43,7 +43,7 @@ const DefaultContainers = (props) => {
       <div className="container">
         {sectionType?.image && (
           <img
-            className="image"
+            className="imag"
             src={process.env.PUBLIC_URL + sectionType?.image}
             alt="ProjectImage"
           />
