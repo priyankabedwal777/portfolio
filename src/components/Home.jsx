@@ -25,12 +25,6 @@ const Home = () => {
   return data ? (
     <div id="/" className="home">
       <Reveal duration={3000} triggerOnce>
-        {/* <div>
-          <Image src={homeimg} />
-        </div> */}
-        {/* <div className="homeimage">
-          <img src={data.profilePic.source} alt="ProfilePic" />
-        </div> */}
         <div className="homeimage">
           <img
             src={process.env.PUBLIC_URL + data.profilePic.source}
