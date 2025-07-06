@@ -1,40 +1,40 @@
 {
   "certifications": [
     {
-      "title": "Foundation of Project Management",
+      "title": "Web Designing",
+      "image": "/certifications/d2.png",
+      "bodyText": "Ducat India - 2022",
+      "credentialUrl": "https://www.ducatindia.com/verify-certificate?certificate=030120238468909"
+    },
+    {
+      "title": "Front End Development",
       "image": "/certifications/UpSkillsFrontend.png",
-      "bodyText": "Google - 2021",
-      "credentialUrl": "https://linkhere.com"
+      "bodyText": "Simplilearn SkillUP - 2025",
+      "credentialUrl": "https://simpli-web.app.link/e/HTX8NwrQKUb"
     },
     {
-      "title": "Meta Front-End Developer",
+      "title": "Next JS",
       "image": "/certifications/mindluster.jpg",
-      "bodyText": "Meta - 2024",
-      "credentialUrl": "https://linkhere.com"
+      "bodyText": "Mind Luster - 2025",
+      "credentialUrl": "https://www.mindluster.com/student/certificate/90d177dd"
     },
     {
-      "title": "IBM Full Stack Software Developer",
+      "title": "Web Development",
       "image": "/certifications/InfosysCertificate.png",
-      "bodyText": "IBM - 2024",
-      "credentialUrl": "https://linkhere.com"
+      "bodyText": "Infosys - 2025",
+      "credentialUrl": "https://infyspringboard.onwingspan.com/web/en/app/toc/lex_auth_01329484902361497635157_shared/overview"
     },
     {
-      "title": "Google Advanced Data Analytics",
+      "title": "JavaScript",
       "image": "/certifications/SkillUp-Certificate.png",
-      "bodyText": "Google - 2024",
-      "credentialUrl": "https://linkhere.com"
+      "bodyText": "Simplilearn SkillUP - 2025",
+      "credentialUrl": "https://simpli-web.app.link/e/wMaFdsbQKUb"
     },
     {
-      "title": "Fundamentals of AI & ML",
+      "title": "React JS",
       "image": "/certifications/ScalerCertificateReact.png",
-      "bodyText": "Skillsoft - 2024",
-      "credentialUrl": "https://linkhere.com"
-    },
-    {
-      "title": "AI & Frontend Development",
-      "image": "/certifications/Certificate-Ducat-India.png",
-      "bodyText": "Mindluster - 2024",
-      "credentialUrl": "https://linkhere.com"
+      "bodyText": "Scaler - 2025",
+      "credentialUrl": "https://moonshot.scaler.com/s/sl/CfT_s_Clvo?_gl=1*gneahp*_gcl_au*MTg4MTkxMzc2MS4xNzUwODM0ODM5*FPAU*MTg4MTkxMzc2MS4xNzUwODM0ODM5*_ga*MjAyOTM1MDYwMy4xNzUwODM0ODM5*_ga_53S71ZZG1X*czE3NTE3MTgwMDkkbzUkZzEkdDE3NTE3MTgwNTkkajEwJGwwJGg1OTg0ODQ2MjM."
     }
   ]
 }
