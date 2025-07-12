@@ -31,7 +31,7 @@
     },
     {
       "title": "State Management",
-      "tags": ["Redux Toolkit", "Context API", "React Query"]
+      "tags": ["Redux", "Context API", "React Query"]
     },
     {
       "title": "Web Technologies & Tools",
