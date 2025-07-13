@@ -1,87 +1,71 @@
 {
   "projects": [
     {
-      "image": "/projects/ssdloginpage.png",
-      "title": "Build and Deploy a Simple Guestbook App",
-      "bodyText": "Built a simple guestbook application using front-end technologies like HTML, CSS, and JavaScript.\nPackaged the application using Docker, a popular platform for developing, shipping, and running applications.\nDeployed the application using Kubernetes, an open-source platform for automating deployment, scaling, and management of containerized applications.\nManaged the application using OpenShift, a family of containerization software developed by Red Hat.",
+      "image": "/projects/shalimarpaints.png",
+      "title": "Shalimar Paints Dashboard",
+      "bodyText": "Developed a robust internal dashboard for Shalimar Paints using React and Syncfusion components. The dashboard provides streamlined access to various business modules such as sales, inventory, customer management, and performance reports.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
-      ],
-      "tags": ["HTML", "CSS", "JavaScript", "Docker", "Kubernetes", "OpenShift"]
+      ]
     },
     {
       "image": "/projects/SSDDashboard.png",
-      "title": "Deploy Guestbook App from the OpenShift Internal Registry",
-      "bodyText": "Deployed the guestbook application from the OpenShift Internal Registry, a built-in container image registry that is deployed by default with OpenShift.\nManaged the application lifecycle, including updates and rollbacks, using OpenShift’s built-in features.\nEnsured the application is scalable and can handle requests efficiently.",
+      "title": "Approval Management System Dashboard",
+      "bodyText": "Developed a full-featured approval management system to handle employee lifecycle, user controls, role-based permissions, and designation hierarchies using React and Redux",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
-      ],
-      "tags": ["OpenShift", "Scalability"]
+      ]
     },
     {
       "image": "/projects/EasyCampusWeb.png",
-      "title": "Microservices based Serverless Application",
-      "bodyText": "Designed and architected a full-stack application using microservices.\nDeveloped both front-end and back-end components of the application using technologies such as HTML, CSS, JavaScript, and React.\nImplemented user management and authentication mechanisms to secure the application.\nDeveloped backend services and established communication with databases.\nUtilized CI/CD pipelines for continuous integration and deployment of changes.\nDeployed serverless applications on Code Engine.\nCreated and invoked RESTful microservices.\nDeployed the entire solution on the cloud using Kubernetes.",
+      "title": "EasyCampus Web Application",
+      "bodyText": "Developed the main platform for EasyCampus.ai, a centralized solution for managing placement drives involving corporates, campuses, and students",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
-      ],
-      "tags": [
-        "Microservices",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "CI/CD",
-        "Serverless",
-        "Code Engine",
-        "RESTful",
-        "Kubernetes"
       ]
     },
     {
       "image": "/projects/EasyCampusDashboard.png",
-      "title": "Part 1: Front-end Enhancement",
-      "bodyText": "Enhanced the user interface of a web application using React, a popular front-end library.\nImplemented new features and improved the overall user experience.\nApplied best practices for component design and state management.",
+      "title": "EasyCampus Dashboard",
+      "bodyText": "Designed and developed a student-facing registration portal for onboarding, assessments, and interviewscheduling",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
-      ],
-      "tags": ["React", "UI/UX", "Component Design", "State Management"]
+      ]
     },
     {
       "image": "/projects/projectshot3.png",
-      "title": "Part 2: Car Inventory Backend Service",
-      "bodyText": "Developed a backend service for a car inventory application using Node.js and Express.\nImplemented CRUD (Create, Read, Update, Delete) operations to interact with the car inventory.\nEnsured the backend service is scalable and can handle requests efficiently.",
+      "title": "Global Aspirants Web Application",
+      "bodyText": "Designed and developed the official website for Global Aspirants, the parent organization of EasyCampus.ai, showcasing their mission, services, and innovative EdTech solutions. The site also serves as a gateway to the EasyCampus recruitment platform.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
       ],
-      "tags": ["Node.js", "Express", "CRUD", "Scalability"]
+      "tags": ["React.Js", "CRUD"]
     },
     {
       "image": "/projects/VideoCallUi.png",
-      "title": "Part 3: Front-end Development for Car Inventory Service",
-      "bodyText": "Connected the front-end application with the backend service, creating a full-stack application.\nUtilized React for front-end development to interact with the car inventory backend service.\nEnsured seamless data flow between the front-end and the backend, providing a smooth user experience.",
+      "title": "EasyCampus Video Call Interface",
+      "bodyText": "Designed and developed a responsive video calling interface for EasyCampus.ai — an AI-driven campus recruitment platform. The feature allows recruiters and candidates to conduct seamless virtual interviews within the app.",
       "links": [
         {
           "text": "GitHub",
           "href": "https://github.com/priyankabedwal777"
         }
-      ],
-      "tags": ["React", "Full Stack", "User Experience"]
+      ]
     }
   ]
 }
