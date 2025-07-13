@@ -1,16 +1,16 @@
 {
   "education": [
     {
-      "dateText": "Sept 2020 to May 2023",
+      "dateText": "Sept 2023 to Aug 2025",
       "cardtitle": "Masters of Computer Application",
       "cardsubtitle": "Guru Jambheshwar University, India",
-      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+      "Imgsrc": "/images/gjulogo.png"
     },
     {
-      "dateText": "Sept 2023 to Aug 2025",
+      "dateText": "Sept 2020 to May 2023",
       "cardtitle": "Bachelor of Computer Application",
       "cardsubtitle": "Punjab Technical University, India",
-      "Imgsrc": "https://img.icons8.com/ios-filled/100/000000/education.png"
+      "Imgsrc": "/images/ptulogo.png"
     }
   ]
 }
