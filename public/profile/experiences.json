@@ -5,27 +5,26 @@
       "cardsubtitle": "Mayank Software Solutions, India",
       "subtitle": "Projects",
       "workDescription": [
-        "Led optimization strategies with RF engineers across Central Region states, enhancing drive data collection processes and achieving superior data accuracy and reliability.",
-        "Orchestrated a complex vendor and sub-vendor network, directly overseeing a primary vendor with 4 sub-vendors and a team of 150+ drive testers, ensuring high operational efficiency and quality control. Designed and implemented comprehensive drive process plans for the Central Region, integrating equipment checks, site alarm monitoring, and drive monitoring tools to support informed go/no-go decisions for drive tests.",
-        "Fostered collaboration with market teams across Central Region states to identify and rectify non-conforming grids in data clusters, establishing detailed protocols for root cause analysis (utility checks, ducting, backhaul assessments) on drive days.",
-        "Initiated real-time troubleshooting protocols during drive tests to swiftly address signal strength, interference, and system performance issues, significantly reducing data collection downtime.",
-        "Developed and enforced vendor performance Trackers, centralizing vendor records to efficiently track and manage vendor reliability, quality, and compliance, thereby minimizing operational risks.",
-        "Conducted comprehensive vendor onboarding and training sessions, ensuring all suppliers were proficient in company tools and processes, leading to enhanced service delivery and stakeholder satisfaction in the Central Region."
+        "Developed a full-featured approval management system to handle employee lifecycle, user controls, role-basedpermissions, and designation hierarchies using React and Redux Toolkit.",
+        "Implemented a dynamic admin dashboard with real-time data visualization using Chart.js and integrated RESTful APIs for data fetching.",
+        "Created reusable components and optimized application performance, resulting in a 40% increase in loading speed.",
+        "Architected reusable form and modal components for CRUD operations, reducing code duplication by 40% and accelerating feature delivery"
       ],
       "dateText": "Nov 2024 to Present",
-      "Imgsrc": "https://upload.wikimedia.org/wikipedia/commons/e/e7/T-Mobile_logo_2022.svg"
+      "Imgsrc": "/images/mayanklogo.png"
     },
     {
       "cardtitle": "Frontend Developer - Jr. React Developer",
       "cardsubtitle": "Global Aspirants Solutions Pvt. Ltd., India",
       "subtitle": "Projects",
       "workDescription": [
-        "Develop, manage, and contribute to internal documentation and maintain records of networks and inventory of all equipment.",
-        "Worked on CSM, F5 Load balancers to provide efficient switching and routing for local and global traffic.",
-        "Performed OSPF, BGP, DHCP, profile, HSRP, IPV6, and Bundle Ethernet Implementation on ASR 9K redundant pair."
+        "Developed the main platform for EasyCampus.ai, a centralized solution for managing placement drives involving corporates, campuses, and students",
+        "Built scalable, accessible UI components using Next.js and Tailwind CSS, ensuring responsive design across all devices.",
+        "Designed and developed a student-facing registration portal for onboarding, assessments, and interview scheduling.",
+        "Integrated dashboards for corporates and campuses to manage job postings, placement drives, and analytics. Created dynamic forms with validation and integrated backend APIs securely."
       ],
       "dateText": "Nov 2023 to Oct 2024",
-      "Imgsrc": "https://cdn.iconscout.com/icon/premium/png-256-thumb/work-2937706-2426664.png"
+      "Imgsrc": "/images/easycampuslogo.png"
     }
   ]
 }
