@@ -3,8 +3,6 @@ import endpoints from "../constants/endpoints";
 import FallbackSpinner from "./FallbackSpinner";
 import Typewriter from "typewriter-effect";
 import { Reveal, Fade } from "react-awesome-reveal";
-// import { Image } from "react-bootstrap";
-// import homeimg from "../Assests/images/homebanerimg.png";
 
 const Home = () => {
   const [data, setData] = useState(null);
