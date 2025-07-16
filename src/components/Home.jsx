@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import { Reveal, Slide, Fade } from "react-awesome-reveal";
 // import { Image } from "react-bootstrap";
 // import homeimg from "../Assests/images/homebanerimg.png";
+// import homeimg from "../Assests/images/homebanerimg.png";
 
 const Home = () => {
   const [data, setData] = useState(null);
