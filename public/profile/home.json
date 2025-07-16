@@ -3,18 +3,23 @@
     "source": "/images/coderimg8.png",
     "width": 200,
     "height": 200,
-    "border-radius": 50,
-    "object-fit": "cover",
-    "margin-bottom": 20
+    "borderRadius": 50,
+    "objectFit": "cover",
+    "marginBottom": 20
   },
   "name": "Priyanka",
   "roles": [
-    "a Web Developer",
-    "a Frontend Developer",
-    "umm...",
-    "now also a React Developer"
+    "Frontend Wizard 🪄",
+    "Coding with Coffee ☕",
+    "React Fanatic 💙",
+    "Turning Caffeine into Components ⚡",
+    "UI/UX Enthusiast 💖",
+    "Making Web Pretty & Smart 🌸",
+    "Component Architect 🏗️",
+    "Adding Personality to Pixels ✨",
+    "Turning Ideas into Interfaces 🎯"
   ],
   "paragraph": [
-    "With nearly 2 years of experience in frontend development, I bring curiosity, discipline, and a user-first mindset to every project. I enjoy working with modern frameworks like React and Next.js and continuously seek opportunities to learn new tools and design systems that enhance user experience and development efficiency."
+    "Hi, I’m Priyanka 👋 – a Frontend Developer who believes websites shouldn’t just work, they should delight! For nearly 2 years, I’ve been on a mission to turn coffee into clean code and pixels into perfection. My best friends? React & Next.js (we hang out a lot). My hobbies? Making users happy, squashing bugs, and finding the perfect shade of blue for buttons (it’s an art 🎨). When I’m not coding, I’m probably learning a new tool, exploring design trends, or celebrating that npm install worked on the first try. Looking for someone who writes code, cares about UX, and adds a dash of creativity? That’s me! Let’s build something amazing together. 🚀"
   ]
 }

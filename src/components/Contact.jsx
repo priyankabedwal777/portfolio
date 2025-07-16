@@ -67,9 +67,9 @@ const Contact = (props) => {
           >
             <div>
               <p className="contact-text">
-                I am always interested in discussing new projects or
-                opportunities. If you have any questions or would like to get in
-                touch, please feel free to reach out to me.
+                I love talking about ideas, opportunities, and new challenges.
+                If you think we can build something amazing together, let’s
+                connect! 💬
               </p>
             </div>
           </Fade>
