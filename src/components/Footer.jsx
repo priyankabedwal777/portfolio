@@ -13,7 +13,10 @@ const Footer = () => {
           "linear-gradient(45deg, rgb(245, 239, 249), rgb(207, 211, 236)",
       }}
     >
-      <p>Priyanka • © 2024. All rights reserved.</p>
+      <p>
+        NO © copyright issues. <br /> Feel free to copy. If you need any help,
+        ping me !
+      </p>
     </footer>
   );
 };
