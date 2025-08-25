@@ -1,9 +1,9 @@
 {
   "projects": [
     {
-      "image": "/projects/shalimarpaints.png",
-      "title": "Shalimar Paints Dashboard",
-      "bodyText": "Developed a robust internal dashboard for Shalimar Paints using React and Syncfusion components. The dashboard provides streamlined access to various business modules such as sales, inventory, customer management, and performance reports.",
+      "image": "/projects/projectshot1.png",
+      "title": "Mayank Software Web Application",
+      "bodyText": "Created the main platform website for Mayank Software Solutions, delivering a modern digital presence with intuitive design and responsive performance.",
       "links": [
         {
           "text": "GitHub",

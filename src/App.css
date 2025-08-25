@@ -212,9 +212,9 @@ body {
  border-radius: 5px;
  box-sizing: border-box;
  } */
-.contact-container {
+/* .contact-container {
   display: inline-flex;
-  margin: 30px 0;
+  margin: 30px 0; 
 }
 
 .contact-form {
@@ -224,7 +224,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 .contactText {
   padding-left: 7px;
 }
@@ -248,7 +248,7 @@ body {
   transform: translateY(-5px);
 }
 
-.contact-form input,
+/* .contact-form input,
 textarea {
   width: 100%;
   padding: 10px;
@@ -256,38 +256,38 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-}
+} */
 
 /* Style for the select element */
-.contact-form select {
-  appearance: none; /* Remove default appearance */
-  background-color: #fff; /* Background color */
-  border-radius: 4px; /* Rounded corners */
-  padding: 10px; /* Add some padding */
-  font-size: 16px; /* Font size */
-  color: #333; /* Text color */
-  border: 1px solid #ccc; /* Border */
-  cursor: pointer; /* Change cursor to a pointer on hover */
-  width: 100%; /* Make the select element full width */
-  margin-bottom: 10px; /* Add some margin at the bottom */
-}
+/* .contact-form select {
+  appearance: none; 
+  background-color: #fff;
+  border-radius: 4px; 
+  padding: 10px; 
+  font-size: 16px; 
+  color: #333; 
+  border: 1px solid #ccc; 
+  cursor: pointer; 
+  width: 100%;
+  margin-bottom: 10px; 
+} */
 
 /* Style for the dropdown options */
-.contact-form select option {
-  background-color: #fff; /* Background color */
-  color: #333; /* Text color */
-  padding: 10px; /* Add some padding */
-}
+/* .contact-form select option {
+  background-color: #fff; 
+  color: #333; 
+  padding: 10px; 
+} */
 
 /* Style for the dropdown arrow */
-.contact-form select {
+/* .contact-form select {
   background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 16px;
-  padding-right: 30px; /* Add some padding on the right side for the arrow */
-}
-.contact-form button {
+  padding-right: 30px; 
+} */
+/* .contact-form button {
   background: linear-gradient(
     69.9deg,
     rgb(76, 79, 106) 3.2%,
@@ -298,9 +298,9 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
-}
+} */
 
-.contact-form button:hover {
+/* .contact-form button:hover {
   background: linear-gradient(
     69.9deg,
     rgb(118, 124, 163) 3.2%,
@@ -308,7 +308,7 @@ textarea {
   );
   font-weight: bolder;
   transition: all 0.6s ease-in-out;
-}
+} */
 
 @media (max-width: 826px) {
   .nav-links {
@@ -340,18 +340,6 @@ textarea {
     margin-top: 2.5px;
     margin-right: 7px;
   }
-  /* .contact-container {
-    margin: 20px;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-     }
-    .contact-form {
-    margin-right: 0;
-    margin-bottom: 5px;
-     } */
 }
 
 @media (max-width: 768px) {
@@ -370,18 +358,18 @@ textarea {
   .eachSection_height {
     box-shadow: inset 1px 10px 9px rgba(0, 0, 0, 0.3);
   }
-  .contact-container {
+  /* .contact-container {
     margin: 20px;
     width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .contact-form {
+  } */
+  /* .contact-form {
     margin-right: 0;
     margin-bottom: 5px;
-  }
+  } */
   .nav-links {
     position: fixed;
     margin-top: 40px;

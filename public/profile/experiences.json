@@ -1,10 +1,11 @@
 {
   "experiences": [
     {
-      "cardtitle": "Frontend Developer - React",
+      "cardtitle": "React Developer",
       "cardsubtitle": "Mayank Software Solutions, India",
       "subtitle": "Projects",
       "workDescription": [
+        "Developed the main platform website for Mayank Software Solutions, showcasing services with a responsive, user-friendly interface.",
         "Developed a full-featured approval management system to handle employee lifecycle, user controls, role-basedpermissions, and designation hierarchies using React and Redux Toolkit.",
         "Implemented a dynamic admin dashboard with real-time data visualization using Chart.js and integrated RESTful APIs for data fetching.",
         "Created reusable components and optimized application performance, resulting in a 40% increase in loading speed.",
