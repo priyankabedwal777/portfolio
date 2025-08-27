@@ -21,7 +21,6 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate API call - replace with your actual form submission logic
     setTimeout(() => {
       setShowSuccess(true);
       setFormData({
