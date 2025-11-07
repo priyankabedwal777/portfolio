@@ -21,20 +21,33 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    setTimeout(() => {
-      setShowSuccess(true);
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      });
-      setIsSubmitting(false);
+    try {
+      const contactData = {
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        timestamp: new Date().toISOString(),
+      };
 
-      setTimeout(() => {
-        setShowSuccess(false);
-      }, 5000);
-    }, 1000);
+      const response = await fetch('https://portfoliocontact-e9622-default-rtdb.firebaseio.com/contacts.json', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(contactData),
+      });
+
+      if (response.ok) {
+        setShowSuccess(true);
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        setTimeout(() => setShowSuccess(false), 5000);
+      }
+    } catch (error) {
+      console.error('Firebase Error:', error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleContactClick = (type, value) => {
@@ -382,20 +395,20 @@ const Contact = () => {
                 className="contact-item"
                 style={styles.contactItem}
                 onClick={() =>
-                  handleContactClick("email", "your.email@example.com")
+                  handleContactClick("email", "priyankabedwal.work@gmail.com")
                 }
               >
                 <span style={styles.contactIcon}>📧</span>
-                <span style={styles.contactText}>your.email@example.com</span>
+                <span style={styles.contactText}>priyankabedwal.work@gmail.com</span>
               </div>
 
               <div
                 className="contact-item"
                 style={styles.contactItem}
-                onClick={() => handleContactClick("phone", "+919876543210")}
+                onClick={() => handleContactClick("phone", "+918307740389")}
               >
                 <span style={styles.contactIcon}>📱</span>
-                <span style={styles.contactText}>+91 9876543210</span>
+                <span style={styles.contactText}>+91 8307740389</span>
               </div>
 
               <div style={styles.contactItem}>
