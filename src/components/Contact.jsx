@@ -30,13 +30,16 @@ const Contact = () => {
         timestamp: new Date().toISOString(),
       };
 
-      const response = await fetch('https://portfoliocontact-e9622-default-rtdb.firebaseio.com/contacts.json', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(contactData),
-      });
+      const response = await fetch(
+        "https://portfoliocontact-e9622-default-rtdb.firebaseio.com/contacts.json",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(contactData),
+        }
+      );
 
       if (response.ok) {
         setShowSuccess(true);
@@ -44,7 +47,7 @@ const Contact = () => {
         setTimeout(() => setShowSuccess(false), 5000);
       }
     } catch (error) {
-      console.error('Firebase Error:', error);
+      console.error("Firebase Error:", error);
     } finally {
       setIsSubmitting(false);
     }
@@ -202,7 +205,7 @@ const Contact = () => {
     submitBtn: {
       width: "100%",
       padding: "18px",
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      // background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
       color: "white",
       border: "none",
       borderRadius: "12px",
@@ -399,7 +402,9 @@ const Contact = () => {
                 }
               >
                 <span style={styles.contactIcon}>📧</span>
-                <span style={styles.contactText}>priyankabedwal.work@gmail.com</span>
+                <span style={styles.contactText}>
+                  priyankabedwal.work@gmail.com
+                </span>
               </div>
 
               <div
