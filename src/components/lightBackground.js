@@ -13,7 +13,7 @@ const LightBackground = () => {
         const ctx = canvas.getContext("2d");
         let screen = document.querySelector(".MainApp");
         let dots = [];
-        let colors = ["#FF8C69", "#E6E6FA", "#8EC5FC", "#A9A9A9", "#FFD700"];
+        let colors = ["#6c5ce7", "#a29bfe", "#00b894", "#00cec9", "#fd79a8", "#fdcb6e", "#e17055"];
 
         const resizeCanvas = () => {
             canvas.width = screen.offsetWidth;

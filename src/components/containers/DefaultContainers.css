@@ -47,14 +47,17 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  box-shadow: 1px 10px 9px rgba(0, 0, 0, 0.428);
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 15px 35px rgba(255, 107, 107, 0.1), 0 5px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
   text-align: center;
   width: 100%;
   padding: 0px;
   height: 100%;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container > * {
@@ -74,7 +77,8 @@
 }
 
 .container:hover {
-  transform: scale(1.02);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px rgba(255, 107, 107, 0.2), 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 .image:hover {
   cursor: pointer;
@@ -87,17 +91,22 @@
 }
 
 .badge {
-  background: linear-gradient(
-    69.9deg,
-    rgb(76, 79, 106) 3.2%,
-    rgb(118, 124, 163) 97.6%
-  );
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
   color: white;
   display: inline-block;
-  border-radius: 10px;
-  padding: 5px 10px;
-  margin: 5px;
-  font-size: 0.9rem;
+  border-radius: 15px;
+  padding: 8px 16px;
+  margin: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+  transition: all 0.3s ease;
+}
+
+.badge:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 20px rgba(108, 92, 231, 0.5);
+  background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
 }
 
 .tags-container {
@@ -142,11 +151,9 @@ ul {
 
 .links a:hover {
   color: white;
-  background: linear-gradient(
-    69.9deg,
-    rgb(76, 79, 106) 3.2%,
-    rgb(118, 124, 163) 97.6%
-  );
+  background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4);
 }
 .regularText p {
   margin-top: 0;
@@ -158,11 +165,9 @@ ul {
 }
 .footerUrl a:hover {
   color: white;
-  background: linear-gradient(
-    69.9deg,
-    rgb(76, 79, 106) 3.2%,
-    rgb(118, 124, 163) 97.6%
-  );
+  background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 184, 148, 0.4);
 }
 .footerUrl {
   padding: 15px 0;

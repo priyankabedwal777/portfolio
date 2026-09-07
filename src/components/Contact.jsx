@@ -64,7 +64,7 @@ const Contact = () => {
   const styles = {
     container: {
       minHeight: "100vh",
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      background: "linear-gradient(135deg, #6c5ce7 0%, #a29bfe 50%, #00cec9 100%)",
       padding: "20px",
       position: "relative",
       overflowX: "hidden",
@@ -88,13 +88,14 @@ const Contact = () => {
     },
     title: {
       fontSize: "3.5rem",
-      fontWeight: 700,
+      fontWeight: 800,
       marginBottom: "20px",
-      background: "linear-gradient(45deg, #fff, #e0e7ff)",
+      background: "linear-gradient(135deg, #fff 0%, #f8f9ff 100%)",
       WebkitBackgroundClip: "text",
       WebkitTextFillColor: "transparent",
       backgroundClip: "text",
       lineHeight: 1.1,
+      textShadow: "0 4px 20px rgba(255, 255, 255, 0.3)",
     },
     description: {
       fontSize: "1.2rem",
@@ -111,19 +112,21 @@ const Contact = () => {
       display: "flex",
       alignItems: "center",
       gap: "15px",
-      padding: "15px 20px",
-      background: "rgba(255, 255, 255, 0.1)",
-      borderRadius: "15px",
-      backdropFilter: "blur(10px)",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
+      padding: "18px 24px",
+      background: "rgba(255, 255, 255, 0.15)",
+      borderRadius: "20px",
+      backdropFilter: "blur(20px)",
+      border: "1px solid rgba(255, 255, 255, 0.3)",
       cursor: "pointer",
-      transition: "all 0.3s ease",
+      transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      boxShadow: "0 8px 32px rgba(255, 255, 255, 0.1)",
     },
     contactIcon: {
       fontSize: "1.5rem",
       width: "30px",
       textAlign: "center",
-      color: "#fbbf24",
+      color: "#fff",
+      filter: "drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2))",
     },
     contactText: {
       fontSize: "1.1rem",
@@ -138,23 +141,25 @@ const Contact = () => {
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      width: "50px",
-      height: "50px",
-      background: "rgba(255, 255, 255, 0.1)",
+      width: "55px",
+      height: "55px",
+      background: "rgba(255, 255, 255, 0.15)",
       borderRadius: "50%",
       color: "white",
-      fontSize: "1.2rem",
-      border: "1px solid rgba(255, 255, 255, 0.2)",
+      fontSize: "1.3rem",
+      border: "1px solid rgba(255, 255, 255, 0.3)",
       textDecoration: "none",
-      transition: "all 0.3s ease",
+      transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+      backdropFilter: "blur(10px)",
+      boxShadow: "0 4px 15px rgba(255, 255, 255, 0.1)",
     },
     formContainer: {
-      background: "rgba(255, 255, 255, 0.95)",
-      borderRadius: "20px",
-      padding: "40px",
-      backdropFilter: "blur(20px)",
-      border: "1px solid rgba(255, 255, 255, 0.3)",
-      boxShadow: "0 20px 40px rgba(0, 0, 0, 0.1)",
+      background: "rgba(255, 255, 255, 0.98)",
+      borderRadius: "24px",
+      padding: "45px",
+      backdropFilter: "blur(30px)",
+      border: "1px solid rgba(255, 255, 255, 0.4)",
+      boxShadow: "0 25px 50px rgba(255, 107, 107, 0.15), 0 0 0 1px rgba(255, 255, 255, 0.1)",
       position: "relative",
       overflow: "hidden",
     },
@@ -172,13 +177,14 @@ const Contact = () => {
     },
     input: {
       width: "100%",
-      padding: "15px 20px",
-      border: "2px solid #e5e7eb",
-      borderRadius: "12px",
+      padding: "16px 22px",
+      border: "2px solid #e2e8f0",
+      borderRadius: "15px",
       fontSize: "1rem",
       transition: "all 0.3s ease",
-      background: "white",
+      background: "rgba(255, 255, 255, 0.9)",
       fontFamily: "inherit",
+      boxShadow: "0 2px 10px rgba(0, 0, 0, 0.05)",
     },
     textarea: {
       width: "100%",
@@ -204,19 +210,20 @@ const Contact = () => {
     },
     submitBtn: {
       width: "100%",
-      padding: "18px",
-      background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      padding: "20px",
+      background: "linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%)",
       color: "white",
       border: "none",
-      borderRadius: "12px",
+      borderRadius: "15px",
       fontSize: "1.1rem",
-      fontWeight: 600,
+      fontWeight: 700,
       cursor: "pointer",
-      transition: "all 0.3s ease",
+      transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
       textTransform: "uppercase",
-      letterSpacing: "1px",
+      letterSpacing: "1.5px",
       position: "relative",
       overflow: "hidden",
+      boxShadow: "0 8px 25px rgba(108, 92, 231, 0.4)",
     },
     successMessage: {
       background: "linear-gradient(135deg, #10b981, #059669)",
@@ -323,22 +330,36 @@ const Contact = () => {
         }
 
         .contact-item:hover {
-          background: rgba(255, 255, 255, 0.15) !important;
-          transform: translateY(-2px);
+          background: rgba(255, 255, 255, 0.25) !important;
+          transform: translateY(-3px) scale(1.02);
+          box-shadow: 0 12px 40px rgba(255, 255, 255, 0.2) !important;
         }
 
         .social-link:hover {
-          background: rgba(255, 255, 255, 0.2) !important;
-          transform: translateY(-3px);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%) !important;
+          transform: translateY(-4px) scale(1.1);
+          box-shadow: 0 15px 30px rgba(108, 92, 231, 0.5) !important;
         }
 
         .form-input:focus,
         .form-select:focus,
         .form-textarea:focus {
           outline: none;
-          border-color: #667eea !important;
-          box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+          border-color: #6c5ce7 !important;
+          box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.15), 0 4px 15px rgba(108, 92, 231, 0.1) !important;
+          transform: translateY(-1px);
+        }
+        
+        .submit-btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 15px 40px rgba(108, 92, 231, 0.6) !important;
+          background: linear-gradient(135deg, #00b894 0%, #00cec9 100%) !important;
+        }
+        
+        .submit-btn:active {
+          transform: translateY(-1px);
+          box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4) !important;
+        }02, 126, 234, 0.1);
           transform: translateY(-2px);
         }
 
