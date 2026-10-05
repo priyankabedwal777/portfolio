@@ -11,6 +11,7 @@ import ScrollTop from './components/ScrollTop.jsx';
 import InnovativeCursor from './Cursor.jsx';
 import { Fade } from 'react-awesome-reveal';
 import LightBackground from './components/lightBackground.js';
+import Home from './components/Home.jsx';
 // import { keyframes } from '@emotion/react';
 
 // import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
@@ -48,6 +49,7 @@ const MainApp = () => {
         <div id={theme === darkTheme ? 'stars' : ''} />
         <div id={theme === darkTheme ? 'stars2' : ''} />
         <div id={theme === darkTheme ? 'stars3' : ''} />
+        <Home />
         
         {data && data.sections && data.sections.map((section, index) => {
           const Component = lazy(() => 
@@ -57,8 +59,8 @@ const MainApp = () => {
         );
           return (
             <Suspense key={section.headerTitle} fallback={<FallbackSpinner />}>
-              <Fade duration={2000} cascade damping={2000} >
-              <div className="section_container" id={section.path}>
+              <Fade duration={800} triggerOnce>
+              <div className="section_container">
                 <Component header={section.headerTitle} />
               </div>
               </Fade>

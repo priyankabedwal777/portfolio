@@ -3,9 +3,6 @@ import endpoints from "../constants/endpoints";
 import FallbackSpinner from "./FallbackSpinner";
 import Typewriter from "typewriter-effect";
 import { Reveal, Fade } from "react-awesome-reveal";
-// import { Image } from "react-bootstrap";
-// import homeimg from "../Assests/images/homebanerimg.png";
-// import homeimg from "../Assests/images/homebanerimg.png";
 
 const Home = () => {
   const [data, setData] = useState(null);
@@ -27,18 +24,21 @@ const Home = () => {
     <div id="/" className="home">
       <Reveal duration={3000} triggerOnce>
         <div className="homeimage">
-          <img
-            src={process.env.PUBLIC_URL + data.profilePic.source}
-            alt="ProfilePic"
-          />
+          <div className="avatar-ring">
+            <img
+              src={process.env.PUBLIC_URL + data.profilePic.source}
+              alt="ProfilePic"
+              className="profilePic"
+            />
+          </div>
+          <div className="avatar-glow" />
         </div>
       </Reveal>
       <Fade direction="right" duration={3000} cascade damping={1e3} triggerOnce>
         <div className="hometext">
           <h1 className="name">{data.name}</h1>
           <div className="textanimation">
-            <h2 className="im">I'm</h2>
-            <span>&nbsp;</span>
+            <h2 className="im">I'm&nbsp;</h2>
             <Typewriter
               options={{
                 strings: data.roles,
@@ -49,6 +49,28 @@ const Home = () => {
           </div>
           <div className="home-paragraph">
             <p>{data.paragraph}</p>
+          </div>
+          <div className="home-cta">
+            <a
+              href="#/contact"
+              className="cta-btn cta-primary"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("/contact")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              ✉️ Hire Me
+            </a>
+            <a
+              href="#/projects"
+              className="cta-btn cta-secondary"
+              onClick={(e) => {
+                e.preventDefault();
+                document.getElementById("/projects")?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              🚀 View Work
+            </a>
           </div>
         </div>
       </Fade>

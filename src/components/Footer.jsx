@@ -2,21 +2,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer
-      style={{
-        textAlign: "center",
-        padding: "5px",
-        left: "0",
-        bottom: "0",
-        width: "100%",
-        background:
-          "linear-gradient(45deg, rgb(245, 239, 249), rgb(207, 211, 236)",
-      }}
-    >
-      <p>
-        NO © copyright issues. <br /> Feel free to copy. If you need any help,
-        ping me !
-      </p>
+    <footer className="footer">
+      <div className="footer-content">
+        <div className="footer-brand">
+          <span className="footer-logo">✨ Priyanka</span>
+          <p className="footer-tagline">Turning caffeine into beautiful code</p>
+        </div>
+        <div className="footer-links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="footer-social">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social">LinkedIn</a>
+          <a href="mailto:priyanka@example.com" className="footer-social">Email</a>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>Made with 💜 &amp; ☕ · Free to use &amp; remix · Ping me if you need help!</p>
+      </div>
     </footer>
   );
 };

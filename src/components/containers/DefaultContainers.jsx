@@ -39,7 +39,7 @@ const DefaultContainers = (props) => {
     return <p>{bullets}</p>;
   };
   return (
-    <Fade duration={5000} cascade damping={0.5}>
+    <Fade duration={600} triggerOnce>
       <div className="container">
         {sectionType?.image && (
           <img
