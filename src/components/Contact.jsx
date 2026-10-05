@@ -359,13 +359,11 @@ const Contact = () => {
         .submit-btn:active {
           transform: translateY(-1px);
           box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4) !important;
-        }02, 126, 234, 0.1);
-          transform: translateY(-2px);
         }
 
-        .submit-btn:hover:not(:disabled) {
-          transform: translateY(-2px);
-          box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        .submit-btn:disabled {
+          opacity: 0.7;
+          cursor: not-allowed;
         }
 
         .submit-btn:disabled {

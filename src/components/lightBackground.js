@@ -45,21 +45,25 @@ const LightBackground = () => {
         };
 
         const handleMouseMove = (e) => {
-            drawDots();
-            let mouse = {
-                x: e.pageX - screen.getBoundingClientRect().left - window.scrollX,
-                y: e.pageY - screen.getBoundingClientRect().top - window.scrollY
-            };
-            dots.forEach((dot) => {
-                let distance = Math.sqrt(Math.pow(mouse.x - dot.x, 2) + Math.pow(mouse.y - dot.y, 2));
-                if (distance < 200) {
-                    ctx.strokeStyle = dot.color;
-                    ctx.lineWidth = 1;
-                    ctx.beginPath();
-                    ctx.moveTo(dot.x, dot.y);
-                    ctx.lineTo(mouse.x, mouse.y);
-                    ctx.stroke();
-                }
+            if (handleMouseMove._raf) return;
+            handleMouseMove._raf = requestAnimationFrame(() => {
+                handleMouseMove._raf = null;
+                drawDots();
+                let mouse = {
+                    x: e.pageX - screen.getBoundingClientRect().left - window.scrollX,
+                    y: e.pageY - screen.getBoundingClientRect().top - window.scrollY
+                };
+                dots.forEach((dot) => {
+                    let distance = Math.sqrt(Math.pow(mouse.x - dot.x, 2) + Math.pow(mouse.y - dot.y, 2));
+                    if (distance < 200) {
+                        ctx.strokeStyle = dot.color;
+                        ctx.lineWidth = 1;
+                        ctx.beginPath();
+                        ctx.moveTo(dot.x, dot.y);
+                        ctx.lineTo(mouse.x, mouse.y);
+                        ctx.stroke();
+                    }
+                });
             });
         };
 

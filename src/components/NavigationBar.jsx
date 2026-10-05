@@ -5,7 +5,6 @@ import Switch from "../theme/Switch";
 
 const NavBar = () => {
     const [data, setData] = useState(null);
-    const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
     const [activeLink, setActiveLink] = useState("");
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -29,36 +28,23 @@ const NavBar = () => {
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollPos = window.scrollY;
-            const navbar = document.querySelector(".navbar");
-            
-            if (navbar) {
-                if (prevScrollPos > currentScrollPos) {
-                    navbar.style.transform = "translateY(0%)";
-                    
-                } else {
-                    navbar.style.transform = "translateY(-200%)";
-                }
-                setPrevScrollPos(currentScrollPos);
-            }
             const sections = document.querySelectorAll('div[id^="/"]');
             let activeSection = '';
             for (const section of sections) {
                 if (section && section.getBoundingClientRect) {
                     const sectionTop = section.getBoundingClientRect().top + window.scrollY - 100;
                     const sectionBottom = sectionTop + section.offsetHeight;
-                    const isInViewport = currentScrollPos >= sectionTop && currentScrollPos <= sectionBottom;
-                    if (isInViewport) {
+                    if (currentScrollPos >= sectionTop && currentScrollPos <= sectionBottom) {
                         activeSection = section.id;
                         break;
                     }
                 }
             }
             setActiveLink(activeSection);
-            // console.log(`Current section in viewport: ${activeSection}`);
         };
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    }, [prevScrollPos, data, setActiveLink]);
+    }, [data]);
 
     const scrollTo = (e, sectionID) => {
         e.preventDefault();
