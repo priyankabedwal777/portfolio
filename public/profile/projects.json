@@ -6,8 +6,12 @@
       "bodyText": "Created the main platform website for Mayank Software Solutions, delivering a modern digital presence with intuitive design and responsive performance.",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/priyankabedwal777"
+          "text": "SFA",
+          "href": "https://sfa.mayanksoftwares.co/"
+        },
+        {
+          "text": "Kuexa Login",
+          "href": "https://kuexa.mayanksoftwares.co/login"
         }
       ]
     },
@@ -17,8 +21,8 @@
       "bodyText": "Developed a full-featured approval management system to handle employee lifecycle, user controls, role-based permissions, and designation hierarchies using React and Redux",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/priyankabedwal777"
+          "text": "Open Application",
+          "href": "https://sfa.mayanksoftwares.co/"
         }
       ]
     },
@@ -28,8 +32,8 @@
       "bodyText": "Developed the main platform for EasyCampus.ai, a centralized solution for managing placement drives involving corporates, campuses, and students",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/priyankabedwal777"
+          "text": "Visit Website",
+          "href": "https://www.easycampus.in/"
         }
       ]
     },
@@ -39,8 +43,8 @@
       "bodyText": "Designed and developed a student-facing registration portal for onboarding, assessments, and interviewscheduling",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/priyankabedwal777"
+          "text": "Open Registration",
+          "href": "https://app.easycampus.in/registration"
         }
       ]
     },
@@ -66,6 +70,50 @@
           "href": "https://github.com/priyankabedwal777"
         }
       ]
+    },
+    {
+      "image": "/projects/kuexa1.png",
+      "title": "Kuexa Web Application",
+      "bodyText": "Built the Kuexa web platform experience with a responsive interface and streamlined access to key application features.",
+      "links": [
+        {
+          "text": "Visit Website",
+          "href": "https://kuexa.com/"
+        }
+      ],
+      "tags": ["React.Js", "Web Application"]
+    },
+    {
+      "image": "/projects/adminkuexa1.png",
+      "title": "Kuexa Admin Dashboard",
+      "bodyText": "Developed the Kuexa administration dashboard for managing platform operations, users, and business data.",
+      "links": [
+        {
+          "text": "Admin Dashboard",
+          "href": "https://admin.kuexa.com/#/dashboard"
+        },
+        {
+          "text": "Saintshop Admin",
+          "href": "https://saintshopadmin.kuexa.com/#/dashboard"
+        }
+      ],
+      "tags": ["React.Js", "Admin Dashboard", "Redux"]
+    },
+    {
+      "image": "/projects/SSDDashboard.png",
+      "title": "Mayank Software SFA",
+      "bodyText": "Developed the Mayank Software sales force automation application for managing field operations and business workflows.",
+      "links": [
+        {
+          "text": "Open SFA",
+          "href": "https://sfa.mayanksoftwares.co/"
+        },
+        {
+          "text": "Kuexa Login",
+          "href": "https://kuexa.mayanksoftwares.co/login"
+        }
+      ],
+      "tags": ["React.Js", "SFA", "Dashboard"]
     }
   ]
 }
